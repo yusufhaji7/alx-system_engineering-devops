@@ -1,0 +1,18 @@
+i#!/usr/bin/env bash
+# prints "Best School" except for 4th and 8th iterations
+
+a=0
+
+while [ $a -lt 10 ];
+do
+	if [ $a -eq 3 ]
+	then
+		echo "bad luck"
+	elif [ $a -eq 7 ]
+	then
+		echo "good luck"
+	else
+		echo "Best School"
+	fi
+	(( a=a+1 ))
+done
