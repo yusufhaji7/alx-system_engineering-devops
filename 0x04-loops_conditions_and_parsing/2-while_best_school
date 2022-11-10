@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# prints "Best School" 10 times using while loop
+
+a=0
+
+while (($a < 10))
+do
+	echo "Best School"
+	a=`expr $a + 1`
+done
