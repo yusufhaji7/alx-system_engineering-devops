@@ -1,14 +1,14 @@
-i#!/usr/bin/env bash
+#!/usr/bin/env bash
 # prints "Best School" except for 4th and 8th iterations
 
-a=0
+a=1
 
-while [ $a -lt 10 ];
+while [ $a -le 10 ];
 do
-	if [ $a -eq 3 ]
+	if [ $a -eq 4 ]
 	then
 		echo "bad luck"
-	elif [ $a -eq 7 ]
+	elif [ $a -eq 8 ]
 	then
 		echo "good luck"
 	else
